@@ -77,7 +77,7 @@ Ember.EasyForm.Input = Ember.EasyForm.BaseView.extend({
   focusIn: function() {
     this.set('focused', true)
   },
-  keyDown: function() {
+  keyUp: function() {
     this.showValidationError();
   },
   showValidationError: function() {
